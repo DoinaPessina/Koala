@@ -1,0 +1,21 @@
+#header {
+    background-color: #a0d4b3;
+    padding: 12px; display: flex; 
+    flex-direction:  row;
+    justify-content:left;
+    align-items: center;
+    margin: 0%;
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+   li a {
+        text-decoration: none; color: white; font-family: Helvetica;
+    }
+}
+.logo {
+        width: 100px;
+        height: 100px;
+    }
+}

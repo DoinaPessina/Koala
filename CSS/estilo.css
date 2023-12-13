@@ -1,0 +1,567 @@
+#header {background-color: #a0d4b3;
+padding: 12px; display: flex; 
+flex-direction:  row;
+justify-content:left;
+align-items: center;
+margin: 0%;
+}
+
+header#header {
+    grid-area: header;
+}
+
+body {
+    margin: 0%;
+
+}
+.container-fluid{
+    max-width: max-content;
+  
+}
+ #grilla {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main section imagenes"
+    "footer footer footer";
+    height: 100vh;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 120px 620px 100px;
+ }
+
+main#main {
+    grid-area: main;
+}
+
+section#section {
+    grid-area: section;
+}
+
+section#imagenes {
+    grid-area: imagenes;
+    width: fit-content;
+    object-fit: cover;
+
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 79%;
+
+}
+ 
+#header .menu ul {
+display: flex;
+list-style: none;
+gap: 50px;
+}
+
+#header .menu ul li a {
+    text-decoration: none; color: white; font-family: Helvetica;
+}
+#header .logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.intro1 {
+    font-size: 100px;
+    font-family: 'Copse', serif;
+    padding: 20px;
+    
+}
+
+.intro2 {
+    font-style: oblique;
+    font-weight: lighter;
+    font-family: Helvetica, sans-serif;
+}
+
+.texto {
+    padding-top: 60px;
+    width: 70%;
+}
+
+.intro3 {
+    font-family: sans-serif;
+    padding: 10px;
+    height: fit-content;
+}
+
+.intro4 {
+    font-family: sans-serif;
+    width: auto;
+    display: inline-flex;
+
+}
+
+#Productos {
+background-color: #5e866d;
+margin: none;
+}
+
+.Servicios {
+font-family: sans-serif;
+color: white;
+flex-direction: row;
+margin-left: 10px;
+padding:1%;
+}
+
+#asaid {
+    font-family: museomoderno;
+    font-size: xx-large;
+    color: pink;
+    font-weight: lighter;
+    padding: 5px;
+    align-content:flex-start;
+    justify-content: center;
+    grid-area: asaid;
+    text-align: center;
+}
+
+#gridcontainer {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 50px 70px;
+    grid-template-areas: 
+    "header header header"
+    "asaid main main" 
+    "footer footer footer";
+}
+
+
+main {
+grid-area: main;
+}
+
+
+.titulo1 {
+    font-family:copse;
+    font-weight: 400;
+    }
+
+.titulo2 {
+font-weight: 100;
+font-style: oblique;
+    }
+
+    .texto1 {
+        width: 50%;
+        height: 100%;
+    }
+
+
+    #grilla-nosotros {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 500px 70px;
+    grid-template-areas: 
+    "header header header"
+    "main main main" 
+    "footer footer footer"; }
+
+.titulon {
+    font-family: copse;
+    font-variant: normal;
+    color: white;
+    width: max-content;
+    font-size: 100px;
+    margin-bottom: 0%;
+}
+
+.frase {
+    color: bisque;
+    font-style: oblique;
+    font-size: large;
+    margin-top: 0%;
+}
+.texton {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: small;
+    background-color: white;
+    opacity: 0.5;
+    width: max-content;
+}
+    .estudiokoala {
+padding-left: 117px;
+margin-top: -7%;
+    }
+
+.redes {
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.legales {
+    font-size: xx-small;
+}
+
+footer {
+    grid-area: footer;
+    padding: auto;
+    padding-left: 10%;
+    background-color: whitesmoke;
+}
+
+.formulario {
+    grid-area: formulario;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.formulario h2 {
+    padding-top: 20px;
+    font-size: large;
+    padding-left: 17px;
+    color: #5e866d;
+    padding-bottom: 20px;
+
+}
+
+.mail {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+.mensaje {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+.asunto {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+.Nombre {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+#grillacontacto {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 460px;
+    grid-template-areas: 
+    "header header"
+    "main formulario" 
+    "footer footer";
+}
+
+.contacto {
+    background-color: #5e866d;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: white;
+}
+
+.contacto h1 {
+    font-size: larger;
+    padding-top: 20px;
+}
+
+.contacto h2 {
+font-size: medium;
+    font-variant: all-small-caps;
+    text-decoration: overline;
+    color: white;
+    padding-bottom: 10px
+}#header {background-color: #a0d4b3;
+    padding: 12px; display: flex; 
+    flex-direction:  row;
+    justify-content:left;
+    align-items: center;
+    margin: 0%;
+    }
+    
+    header#header {
+        grid-area: header;
+    }
+    
+    body {
+        margin: 0%;
+    
+    }
+    .container-fluid{
+        max-width: max-content;
+      
+    }
+     #grilla {
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "main section imagenes"
+        "footer footer footer";
+        height: 100vh;
+        grid-template-columns: 30% 30% 40%;
+        grid-template-rows: 120px 620px 100px;
+     }
+    
+    main#main {
+        grid-area: main;
+    }
+    
+    section#section {
+        grid-area: section;
+    }
+    
+    section#imagenes {
+        grid-area: imagenes;
+        width: fit-content;
+        object-fit: cover;
+    
+    }
+    
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 79%;
+    
+    }
+     
+    #header .menu ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    }
+    
+    #header .menu ul li a {
+        text-decoration: none; color: white; font-family: Helvetica;
+    }
+    #header .logo img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .introduction {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+    .intro1 {
+        font-size: 100px;
+        font-family: 'Copse', serif;
+        padding: 20px;
+        
+    }
+    
+    .intro2 {
+        font-style: oblique;
+        font-weight: lighter;
+        font-family: Helvetica, sans-serif;
+    }
+    
+    .texto {
+        padding-top: 60px;
+        width: 70%;
+    }
+    
+    .intro3 {
+        font-family: sans-serif;
+        padding: 10px;
+        height: fit-content;
+    }
+    
+    .intro4 {
+        font-family: sans-serif;
+        width: auto;
+        display: inline-flex;
+    
+    }
+    
+    #Productos {
+    background-color: #5e866d;
+    margin: none;
+    }
+    
+    .Servicios {
+    font-family: sans-serif;
+    color: white;
+    flex-direction: row;
+    margin-left: 10px;
+    padding:1%;
+    }
+    
+    #asaid {
+        font-family: museomoderno;
+        font-size: xx-large;
+        color: pink;
+        font-weight: lighter;
+        padding: 5px;
+        align-content:flex-start;
+        justify-content: center;
+        grid-area: asaid;
+        text-align: center;
+    }
+    
+    #gridcontainer {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 120px 50px 70px;
+        grid-template-areas: 
+        "header header header"
+        "asaid main main" 
+        "footer footer footer";
+    }
+    
+    
+    main {
+    grid-area: main;
+    }
+    
+    
+    .titulo1 {
+        font-family:copse;
+        font-weight: 400;
+        }
+    
+    .titulo2 {
+    font-weight: 100;
+    font-style: oblique;
+        }
+    
+        .texto1 {
+            width: 50%;
+            height: 100%;
+        }
+    
+    
+        #grilla-nosotros {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 120px 500px 70px;
+        grid-template-areas: 
+        "header header header"
+        "main main main" 
+        "footer footer footer"; }
+    
+    .titulon {
+        font-family: copse;
+        font-variant: normal;
+        color: white;
+        width: max-content;
+        font-size: 100px;
+        margin-bottom: 0%;
+    }
+    
+    .frase {
+        color: bisque;
+        font-style: oblique;
+        font-size: large;
+        margin-top: 0%;
+    }
+    .texton {
+        color: black;
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: small;
+        background-color: white;
+        opacity: 0.5;
+        width: max-content;
+    }
+        .estudiokoala {
+    padding-left: 117px;
+    margin-top: -7%;
+        }
+    
+    .redes {
+        font-style: italic;
+        font-family: sans-serif;
+        font-size: medium;
+    }
+    .legales {
+        font-size: xx-small;
+    }
+    
+    footer {
+        grid-area: footer;
+        padding: auto;
+        padding-left: 10%;
+        background-color: whitesmoke;
+    }
+    
+    .formulario {
+        grid-area: formulario;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+    .formulario h2 {
+        padding-top: 20px;
+        font-size: large;
+        padding-left: 17px;
+        color: #5e866d;
+        padding-bottom: 20px;
+    
+    }
+    
+    .mail {
+        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 500px;
+    }
+    .mensaje {
+        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 500px;
+    }
+    
+    .asunto {
+        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 500px;
+    }
+    
+    .Nombre {
+        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 500px;
+    }
+    
+    #grillacontacto {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 120px 460px;
+        grid-template-areas: 
+        "header header"
+        "main formulario" 
+        "footer footer";
+    }
+    
+    .contacto {
+        background-color: #5e866d;
+        padding-left: 40px;
+        padding-top: 20px;
+        color: white;
+    }
+    
+    .contacto h1 {
+        font-size: larger;
+        padding-top: 20px;
+    }
+    
+    .contacto h2 {
+    font-size: medium;
+        font-variant: all-small-caps;
+        text-decoration: overline;
+        color: white;
+        padding-bottom: 10px
+    }
