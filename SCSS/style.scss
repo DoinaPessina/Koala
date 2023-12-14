@@ -1,10 +1,18 @@
-#header {
-    background-color: #a0d4b3;
-    padding: 12px; display: flex; 
+
+@import 'vars';
+
+
+/*header*/
+
+ header {
+    background-color: $colorPrincipal;
+    padding: 12px; 
+    display: flex; 
     flex-direction:  row;
     justify-content:left;
     align-items: center;
     margin: 0%;
+    grid-area: header;
 
 .menu ul {
     display: flex;
@@ -15,7 +23,270 @@
     }
 }
 .logo {
+    img {
         width: 100px;
         height: 100px;
     }
+        
+    }
 }
+
+/*inicio*/ 
+
+#grilla {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main imagenes section"
+    "footer footer footer";
+    height: 100vh;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 120px 620px 100px;
+}
+body {
+    margin: 0%;
+}
+
+main {
+    grid-area: main;
+
+    .intro1 {
+        font-size: 100px;
+    font-family: 'Copse', serif;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    }
+    .intro2 {
+        font-style: oblique;
+        font-size: medium;
+        padding: 20px;
+        font-weight: lighter;
+        font-family: Helvetica, sans-serif;
+    }
+}
+
+#section {
+    grid-area: section;
+    background-color: $colorSecundario;
+    padding-left:40px;
+.texto { padding-left: 30px;
+    color: white;
+    padding-top: 20px;
+    width: 80%;
+    .intro3 {
+        font-family: sans-serif;
+        color: white;
+        padding: 10px;
+        height: fit-content;
+        text-align: center;
+    }
+    .intro4 {
+        font-family: sans-serif;
+        width: auto;
+        display: inline-flex;
+        text-align: justify;
+    }
+    .link {
+        text-decoration: none; color: white; font-family: Helvetica;
+    }
+}
+}
+
+#imagenes {
+    grid-area: imagenes;
+    width: fit-content;
+    object-fit: cover;
+}
+
+
+
+/*nosotros*/ 
+
+#grilla-nosotros {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 500px 70px;
+    grid-template-areas: 
+    "header header"
+    "main main" 
+    "footer footer";}
+
+body {
+    margin: 0%;
+}
+
+main {
+    grid-area: main;
+.estudiokoala {
+    padding-left: 117px;
+    margin-top: -7%;
+
+    .titulon {
+        font-family: copse;
+        font-variant: normal;
+        color: white;
+        width: max-content;
+        font-size: 100px;
+        margin-bottom: 0%;
+    }
+
+    .frase {
+        color: bisque;
+        font-style: oblique;
+        font-size: large;
+        margin-top: 0%;
+        margin-left: 160px;
+    }
+    .texton {
+        color: black;
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: medium;
+        background-color: white;
+        opacity: 0.5;
+        width: 626px;
+        height: 80px;
+        ;
+    }
+}
+}
+
+
+/*Servicios*/ 
+
+#Productos {
+background-color: #5e866d;
+        
+.Servicios {
+ font-family: sans-serif;
+ color: white;
+  flex-direction: row;
+ margin-left: 300px;
+ padding:1%;
+        
+ .titulo1 {
+  font-family:copse;
+ font-weight: 400; }
+ .titulo2 {
+   font-size: large;
+  font-style: oblique;
+ }
+   }
+    }
+
+    /*proyectos*/ 
+
+.imagenes-proyecto {
+    max-width: max-content;
+    }
+    
+
+
+/*contacto*/ 
+
+#grillacontacto {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 120px 460px;
+    grid-template-areas: 
+    "header header"
+    "main formulario" 
+    "footer footer";
+}
+
+.contacto {
+    background-color: $colorSecundario;
+    padding-left: 40px;
+    padding-top: 20px;
+    color: white;
+ 
+    h1 {
+    font-size: larger;
+padding-top: 20px;
+    }
+
+    h2 {
+font-size: medium;
+font-variant: all-small-caps;
+text-decoration: overline;
+color: white;
+padding-bottom: 10px
+}
+}
+
+.formulario {
+    grid-area: formulario;
+    padding-left: 40px;
+    padding-top: 20px;
+
+    h2 {
+        padding-top: 20px;
+        font-size: large;
+        padding-left: 17px;
+        color: #5e866d;
+        padding-bottom: 20px;
+    
+    }
+    .mail {
+        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 500px;
+    }
+    .mensaje {
+        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 500px;
+    }
+    
+    .asunto {
+        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 500px;
+    }
+    
+    .Nombre {
+        padding-left: 20px;
+        padding-bottom: 10px;
+        width: 500px;
+    }
+
+}
+
+
+
+
+
+/*Footer*/ 
+  footer {
+    grid-area: footer;
+    padding: auto;
+    padding-left: 10%;
+    background-color: whitesmoke;
+h3 {
+    font-size: larger;
+    padding-top: 20px;  
+}
+
+.redes {
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.legales {
+    font-size: small;
+    background-color: white;
+}
+}
+  
+
+@media 
+  (min-width: $mobile){
+    header {
+color: #5e866d;
+    }
+  }
+
+
