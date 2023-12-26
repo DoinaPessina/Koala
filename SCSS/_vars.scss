@@ -6,7 +6,9 @@ $colorTerciario: white;
 $mobile: 570px;
 $tablet: 768px;
 $desktop: 1024px;
-$fonttitulo: copse;
+$fonttitulo: Arial, Helvetica, sans-serif;
+$fontlogo: 'Palanquin Dark', sans-serif;
+
 
 $grid-breakpoints: (
   xs: 0,
@@ -16,5 +18,3 @@ $grid-breakpoints: (
   xl: 1200px,
   xxl: 1400px
 )
-
-url('https://fonts.googleapis.com/css2?family=Copse&display=swap');
