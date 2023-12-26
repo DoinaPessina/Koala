@@ -8,11 +8,6 @@ $tablet: 768px;
 $desktop: 1024px;
 $fonttitulo: copse;
 
-
-<style>
-        @import url('https://fonts.googleapis.com/css2?family=Copse&display=swap');
-      </style>
-
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -21,3 +16,5 @@ $grid-breakpoints: (
   xl: 1200px,
   xxl: 1400px
 )
+
+url('https://fonts.googleapis.com/css2?family=Copse&display=swap');
