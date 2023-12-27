@@ -21,8 +21,8 @@ header {
         text-decoration: none; color: white; font-family: $fonttitulo
     }
     a {
-        font-size: large; 
-        font-family: $fontlogo
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
     }
 }
 

@@ -23,8 +23,8 @@ header .menu ul li a {
   font-family: Arial, Helvetica, sans-serif;
 }
 header .menu ul a {
-  font-size: large;
-  font-family: "Palanquin Dark", sans-serif;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
 }
 
 /*variables*/
