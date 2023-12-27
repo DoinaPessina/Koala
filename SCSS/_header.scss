@@ -2,6 +2,11 @@
 /*header*/
 
 @import 'vars';
+@font-face {
+    font-family: nimbus;
+    src: url(/font/NIMBUS.ttf);
+}
+
 
 header {
     background-color: $colorPrincipal;
@@ -21,8 +26,7 @@ header {
         text-decoration: none; color: white; font-family: $fonttitulo
     }
     a {
-        filter: brightness(1.1);
-        mix-blend-mode: multiply;
+        font-family:nimbus;
     }
 }
 
