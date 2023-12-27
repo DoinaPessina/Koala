@@ -2,10 +2,6 @@
 /*header*/
 /*variables*/
 @import url("https://fonts.googleapis.com/css2?family=Copse&family=MuseoModerno:wght@500&family=Palanquin+Dark&family=Secular+One&display=swap");
-@font-face {
-  font-family: nimbus;
-  src: url(/font/NIMBUS.ttf);
-}
 header {
   background-color: #6A5ACD;
   padding: 100px;
@@ -27,7 +23,8 @@ header .menu ul li a {
   font-family: Arial, Helvetica, sans-serif;
 }
 header .menu ul .logo {
-  font-family: nimbus;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
 }
 
 /*variables*/
