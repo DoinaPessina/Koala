@@ -2,8 +2,14 @@
 @import 'vars';
 @import 'header';
 @import 'footer';
-@import 'media';
 @import url('https://fonts.googleapis.com/css2?family=Copse&family=MuseoModerno:wght@500&family=Palanquin+Dark&family=Secular+One&display=swap');
+@media 
+  (min-width: $mobile)
+  {
+    header {
+color: #5e866d;
+    }
+  }
 
 
 /*inicio*/ 
@@ -27,7 +33,7 @@ main {
 
     .intro1 {
         font-size: 100px;
-    font-family: 'Copse', serif;
+    font-family: $fonttitulo;
     padding: 20px;
     padding-top: 20px;
     padding-bottom: 0%;

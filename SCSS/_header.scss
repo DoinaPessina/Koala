@@ -1,8 +1,10 @@
 
 /*header*/
 
+@import 'vars';
+
 header {
-    background-color: $colorPricipal;
+    background-color: $colorPrincipal;
     padding: 100px;
     display: flex; 
     flex-direction:  row;

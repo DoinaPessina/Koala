@@ -1,8 +1,10 @@
 /*variables*/
 /*header*/
+/*variables*/
+@import url("https://fonts.googleapis.com/css2?family=Copse&family=MuseoModerno:wght@500&family=Palanquin+Dark&family=Secular+One&display=swap");
 header {
-  background-color: #a0d4b3;
-  padding: 12px;
+  background-color: #6A5ACD;
+  padding: 100px;
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -18,13 +20,40 @@ header .menu ul {
 header .menu ul li a {
   text-decoration: none;
   color: white;
-  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
 }
-header .logo img {
-  width: 100px;
-  height: 100px;
+header .menu ul a {
+  font-size: large;
+  font-family: "Palanquin Dark", sans-serif;
 }
 
+/*variables*/
+/*Footer*/
+footer {
+  grid-area: footer;
+  padding: auto;
+  padding-left: 10%;
+  background-color: whitesmoke;
+}
+footer h3 {
+  font-size: larger;
+  padding-top: 20px;
+}
+footer .redes {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: medium;
+}
+footer .legales {
+  font-size: small;
+  background-color: white;
+}
+
+@media (min-width: 570px) {
+  header {
+    color: #5e866d;
+  }
+}
 /*inicio*/
 #grilla {
   display: grid;
@@ -43,7 +72,7 @@ main {
 }
 main .intro1 {
   font-size: 100px;
-  font-family: "Copse", serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
   padding-top: 20px;
   padding-bottom: 0%;
@@ -58,7 +87,7 @@ main .intro2 {
 
 #section {
   grid-area: section;
-  background-color: #5e866d;
+  background-color: #9ACD32;
   padding-left: 40px;
 }
 #section .texto {
@@ -178,7 +207,7 @@ main .estudiokoala .texton {
 }
 
 .contacto {
-  background-color: #5e866d;
+  background-color: #9ACD32;
   padding-left: 40px;
   padding-top: 20px;
   color: white;
@@ -226,31 +255,4 @@ main .estudiokoala .texton {
   padding-left: 20px;
   padding-bottom: 10px;
   width: 500px;
-}
-
-/*Footer*/
-footer {
-  grid-area: footer;
-  padding: auto;
-  padding-left: 10%;
-  background-color: whitesmoke;
-}
-footer h3 {
-  font-size: larger;
-  padding-top: 20px;
-}
-footer .redes {
-  font-style: italic;
-  font-family: sans-serif;
-  font-size: medium;
-}
-footer .legales {
-  font-size: small;
-  background-color: white;
-}
-
-@media (min-width: 570px) {
-  header {
-    color: #5e866d;
-  }
 }/*# sourceMappingURL=style.css.map */
