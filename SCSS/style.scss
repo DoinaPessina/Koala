@@ -101,8 +101,11 @@ main {
     grid-area: main;
 
     .estudio {
+width: fit-content;
         background: linear-gradient(45deg, #f37449, #9ACD32);
     align-items: center;
+    margin-top: 0%;
+
     
     .titulon {
         font-family: $fonttitulo;
@@ -134,6 +137,7 @@ main {
 section {
 
     .informacion {
+        background: linear-gradient(45deg, #f37449, #9ACD32);
         align-items: flex;
         font-size: medium;
         color: black;
