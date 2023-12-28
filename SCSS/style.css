@@ -168,14 +168,15 @@ main .intro2 {
   grid-template-areas: "header header" "main main" "footer footer";
 }
 
-.txtprin {
+#nosotros {
   background-color: #a385bd;
 }
-.txtprin .estudio {
+#nosotros .estudio {
   width: 100%;
   padding: 1% 30% 1% 30%;
+  color: black;
 }
-.txtprin .estudio .titulon {
+#nosotros .estudio .titulon {
   font-family: "Palanquin Dark", sans-serif;
   font-variant: normal;
   width: -moz-max-content;
@@ -184,14 +185,14 @@ main .intro2 {
   margin-bottom: 2%;
   align-items: center;
 }
-.txtprin .estudio .frase {
+#nosotros .estudio .frase {
   font-style: oblique;
   font-size: 30px;
   margin-top: 0%;
   margin-left: 160px;
   align-items: center;
 }
-.txtprin .estudio .texton {
+#nosotros .estudio .texton {
   font-family: sans-serif;
   font-weight: 100;
   font-size: medium;
@@ -200,7 +201,7 @@ main .intro2 {
   align-items: center;
 }
 @media (min-width: 570px) {
-  .txtprin header {
+  #nosotros header {
     color: #a385bd;
   }
 }
