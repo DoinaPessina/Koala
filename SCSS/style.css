@@ -278,6 +278,14 @@ main .intro2 {
 }
 
 /*proyectos*/
+#grilla-proyectos {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 80% 20%;
+  grid-template-areas: "header header" "main main" "footer footer";
+}
+
 #proyectos {
   font-family: "Palanquin Dark", sans-serif;
   align-items: center;
