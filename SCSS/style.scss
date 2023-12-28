@@ -153,24 +153,12 @@ color: $colorPrincipal;
   }
 }
 
-.textoanima {
-    background-color: linear-gradient(45deg, #4e88be, #9ACD32);
-    height: 95px;
-    transition-property:background;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-    width: 95px;
-}
-
-  .texto:hover{
-    background: $coloralternativo;
-  }
 
 
 /*Servicios*/ 
 
 #Productos {
-background-color: #5e866d;
+background-color: linear-gradient(45deg, #4e88be, #9ACD32);
         
 .Servicios {
  font-family: sans-serif;
@@ -179,6 +167,14 @@ background-color: #5e866d;
  margin-left: 300px;
  padding:1%;
  width: 100%;
+    height: 95px;
+    transition-property:background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+  .servicios:hover{
+    background: $coloralternativo;
+  }
         
  .titulo1 {
   font-family:copse;
@@ -188,7 +184,6 @@ background-color: #5e866d;
   font-style: oblique;
  }
    }
-    }
 
     /*proyectos*/ 
 
