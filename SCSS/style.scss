@@ -134,7 +134,7 @@ color: $colorPrincipal;
      }
      
     .estudio:hover {
-       border-radius: 50%;
+       border-radius: 30%;
        background-color: $colorSecundario;
      }
 
@@ -191,17 +191,9 @@ color: $colorPrincipal;
 #Productos {
 
    .Servicios {
-background-color: $colorSecundario;
+background: linear-gradient(90deg, rgba(243,116,73,1) 26%, rgba(163,133,189,1) 58%, rgba(78,136,190,1) 100%);
  font-family: sans-serif;
  color: white;
-  flex-direction: row;
- margin-left: 300px;
- padding:1%;
- width: 100%;
-    height: 95px;
-    transition-property:background-color;
-    transition-duration: 1s;
-    transition-timing-function: linear;
 }
   .servicios:hover{
     background-color: $coloralternativo;
@@ -263,7 +255,7 @@ background-color: $colorSecundario;
     display: grid;
     height: 100vh;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 230px 515px 160px;
+    grid-template-rows: 40% 80% 20%;
     grid-template-areas: 
     "header header"
     "main formulario" 

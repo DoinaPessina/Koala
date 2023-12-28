@@ -194,7 +194,7 @@ main .intro2 {
   transition-timing-function: linear;
 }
 #nosotros .estudio:hover {
-  border-radius: 50%;
+  border-radius: 30%;
   background-color: #4e88be;
 }
 #nosotros .titulon {
@@ -238,17 +238,9 @@ main .intro2 {
 }
 
 #Productos .Servicios {
-  background-color: #4e88be;
+  background: linear-gradient(90deg, rgb(243, 116, 73) 26%, rgb(163, 133, 189) 58%, rgb(78, 136, 190) 100%);
   font-family: sans-serif;
   color: white;
-  flex-direction: row;
-  margin-left: 300px;
-  padding: 1%;
-  width: 100%;
-  height: 95px;
-  transition-property: background-color;
-  transition-duration: 1s;
-  transition-timing-function: linear;
 }
 #Productos .servicios:hover {
   background-color: #f37449;
@@ -302,7 +294,7 @@ main .intro2 {
   display: grid;
   height: 100vh;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 230px 515px 160px;
+  grid-template-rows: 40% 80% 20%;
   grid-template-areas: "header header" "main formulario" "footer footer";
 }
 
