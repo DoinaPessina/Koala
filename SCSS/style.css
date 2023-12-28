@@ -208,6 +208,15 @@ main .intro2 {
 
 .texto {
   background-color: linear-gradient(45deg, #4e88be, #9ACD32);
+  height: 95px;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+
+.texto:hover {
+  background: #f37449;
 }
 
 /*Servicios*/
