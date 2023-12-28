@@ -119,16 +119,16 @@ color: $colorPrincipal;
 
     .estudio {
     width: 100%;
-    padding: 1% 1% 1% 30%;
-    align-items: center;
-    justify-content: center;
+    padding: 1% 30% 1% 30%;
+    
 
     .titulon {
-        font-family: $fonttitulo;
+        font-family: $fontalternativa;
         font-variant: normal;
         width: max-content;
         font-size: 50px;
-        margin-bottom: 0%;
+        margin-bottom: 2%;
+        align-items: center;
     }
 
     .frase {
@@ -136,13 +136,15 @@ color: $colorPrincipal;
         font-size: 30px;
         margin-top: 0%;
         margin-left: 160px;
+        align-items: center;
     }
     .texton {
         font-family: sans-serif;
         font-weight: 100;
         font-size: medium;
         width: 626px;
-        height: 20%;  
+        height: 20%; 
+        align-items: center;; 
     }
 }
 @media 
