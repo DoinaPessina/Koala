@@ -68,7 +68,9 @@ main {
         text-align: justify;
     }
     .link {
-        text-decoration: none; color: white; font-family: Helvetica;
+        text-decoration: none; 
+        color: white; 
+        font-family: Helvetica;
     }
 }
 }
@@ -96,8 +98,11 @@ main {
 
 main {
     grid-area: main;
-    background: linear-gradient(45deg, #f37449, #9ACD32);
+
+    .estudio {
+        background: linear-gradient(45deg, #f37449, #9ACD32);
     align-items: center;
+    
     .titulon {
         font-family: $fonttitulo;
         font-variant: normal;
@@ -122,6 +127,7 @@ main {
         width: 626px;
         height: 80px;
     }
+}
 }
 
 section {
