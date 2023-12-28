@@ -22,7 +22,7 @@ color: $colorPrincipal;
     "footer footer footer";
     height: 100vh;
     grid-template-columns: 30% 40% 30%;
-    grid-template-rows: 120px 620px 100px;
+    grid-template-rows: 200px 964px 150px;
 }
 body {
     margin: 0%;
@@ -30,18 +30,18 @@ body {
 
 main {
     grid-area: main;
+    background: linear-gradient(45deg, ) ;
 
     .intro1 {
-        font-size: 100px;
+   font-size: 100px;
     font-family: $fonttitulo;
-    padding: 20px;
-    padding-top: 20px;
-    padding-bottom: 0%;
+    padding: 90px 40px 20px 20px;
+    line-height: 90px;
     }
     .intro2 {
         font-style: oblique;
         font-size: medium;
-        padding: 20px;
+        padding: 10px 40px 20px 20px;
         font-weight: lighter;
         font-family: Helvetica, sans-serif;
     }
@@ -51,10 +51,10 @@ main {
     grid-area: section;
     background-color: $colorSecundario;
     padding-left:40px;
-.texto { padding-left: 30px;
+.texto { 
+    padding: 30px 20px 20px 20px;
     color: white;
-    padding-top: 20px;
-    width: 80%;
+    width: fit-content;
     .intro3 {
         font-family: sans-serif;
         color: white;

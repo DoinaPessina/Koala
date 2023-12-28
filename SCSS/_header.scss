@@ -18,6 +18,7 @@ header {
     display: flex;
     list-style: none;
     gap: 50px;
+    width: 100%;
    li a {
         text-decoration: none; color: white; font-family: $fonttitulo
     }
@@ -25,6 +26,7 @@ header {
 {
         filter: brightness(1.1);
         mix-blend-mode: multiply;
+        height: 20px;
     }
 }
 
