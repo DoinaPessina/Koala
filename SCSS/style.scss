@@ -96,11 +96,8 @@ main {
     "footer footer";}
 
 
-.main {
-    grid-area: main;}
-
 .txtprin {
-    background: linear-gradient(45deg, #f37449, #9ACD32);
+    background: linear-gradient(45deg, #4e88be, #9ACD32);
 
     .estudio {
     width: 100%;
@@ -135,12 +132,14 @@ main {
         
     }
     .informacion {
-        align-items: flex;
         font-size: medium;
         color: black;
         align-content: center;
         justify-content: center;
         font-family: $fontalternativa;
+        display: flex; 
+        flex-direction:  row;
+        align-items: center;
     }
 }
 }
