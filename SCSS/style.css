@@ -137,22 +137,25 @@ main .intro2 {
   height: 100vh;
   grid-template-columns: 50% 50%;
   grid-template-rows: 230px 200px 500px 160px;
-  grid-template-areas: "header header" "main main" "section section" "footer footer";
+  grid-template-areas: "header header" "main main" "footer footer";
 }
 
-.nosotris {
+.main {
   grid-area: main;
+}
+
+.txtprin {
   margin: 0%;
   background: linear-gradient(45deg, #f37449, #9ACD32);
 }
-.nosotris .estudio {
+.txtprin .estudio {
   width: 100%;
   background: white;
   align-items: center;
   justify-content: center;
   margin-top: 0%;
 }
-.nosotris .estudio .titulon {
+.txtprin .estudio .titulon {
   font-family: Arial, Helvetica, sans-serif;
   font-variant: normal;
   color: #f37449;
@@ -161,14 +164,14 @@ main .intro2 {
   font-size: 50px;
   margin-bottom: 0%;
 }
-.nosotris .estudio .frase {
+.txtprin .estudio .frase {
   color: #f37449;
   font-style: oblique;
   font-size: 30px;
   margin-top: 0%;
   margin-left: 160px;
 }
-.nosotris .estudio .texton {
+.txtprin .estudio .texton {
   color: black;
   font-family: sans-serif;
   font-weight: 100;
@@ -176,7 +179,7 @@ main .intro2 {
   width: 626px;
   height: 80px;
 }
-.nosotris .informacion {
+.txtprin .estudio .informacion {
   align-items: flex;
   font-size: medium;
   color: black;
@@ -267,6 +270,11 @@ main .intro2 {
   width: 500px;
 }
 .formulario .Nombre {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  width: 500px;
+}
+.formulario .btnenviar {
   padding-left: 20px;
   padding-bottom: 10px;
   width: 500px;
