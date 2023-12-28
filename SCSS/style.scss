@@ -98,10 +98,11 @@ main {
 
 .txtprin {
     background: linear-gradient(45deg, #4e88be, #9ACD32);
+    width: fit-content;
 
     .estudio {
     width: 100%;
-    background: white;
+    padding: 1% 1% 1% 30%;
     align-items: center;
     justify-content: center;
 
@@ -109,14 +110,14 @@ main {
     .titulon {
         font-family: $fonttitulo;
         font-variant: normal;
-        color: $coloralternativo;
+        color: white;
         width: max-content;
         font-size: 50px;
         margin-bottom: 0%;
     }
 
     .frase {
-        color: $coloralternativo;
+        color: white;
         font-style: oblique;
         font-size: 30px;
         margin-top: 0%;
@@ -128,21 +129,30 @@ main {
         font-weight: 100;
         font-size: medium;
         width: 626px;
-        height: 80px;
+        height: 20%;
         
     }
-    .informacion {
+    }
+
+    #container {
+        padding: 10px;
+        width: 100px;
+        display:inline-block;
+ 
+    .text {
         font-size: medium;
         color: black;
         align-content: center;
         justify-content: center;
         font-family: $fontalternativa;
-        display: flex; 
-        flex-direction:  row;
-        align-items: center;
+        border: #4e88be;
+
     }
+
+
 }
 }
+
 
 /*Servicios*/ 
 
