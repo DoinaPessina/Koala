@@ -12,18 +12,20 @@ footer {
 
 h3 {
     font-size: larger;
-    padding-top: 20px;  
+    padding: 20px;  
 }
 
 .redes {
     font-style: italic;
     font-family: sans-serif;
     font-size: medium;
+    padding: 20px;
 }
 
 .legales {
     font-size: small;
     color: $colorSecundario;
+    padding: 20px;
 
 }
 
@@ -31,11 +33,13 @@ h3 {
     height: 5px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
+    padding: 20px
 }
  img svg {
     width: auto;
     height: 40%;
     padding: 5px;
+    padding: 20px;
  }
 
 }
