@@ -20,8 +20,15 @@ header {
     gap: 50px;
     width: 100%;
    li a {
-        text-decoration: none; color: white; font-family: $fonttitulo
+        text-decoration: none; 
+        color: white; 
+        font-family: $fonttitulo
     }
+
+    li a:hover {
+background-color: $coloralternativo;
+    }
+    
     .logo
 {
         filter: brightness(1.1);

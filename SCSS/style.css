@@ -24,6 +24,9 @@ header .menu ul li a {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+header .menu ul li a:hover {
+  background-color: #f37449;
+}
 header .menu ul .logo {
   filter: brightness(1.1);
   mix-blend-mode: multiply;
@@ -145,7 +148,6 @@ main .intro2 {
 }
 
 .txtprin {
-  margin: 0%;
   background: linear-gradient(45deg, #f37449, #9ACD32);
 }
 .txtprin .estudio {
@@ -153,7 +155,6 @@ main .intro2 {
   background: white;
   align-items: center;
   justify-content: center;
-  margin-top: 0%;
 }
 .txtprin .estudio .titulon {
   font-family: Arial, Helvetica, sans-serif;
