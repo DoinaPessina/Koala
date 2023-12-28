@@ -94,7 +94,7 @@ main .intro2 {
 
 #section {
   grid-area: section;
-  background-color: #9ACD32;
+  background-color: #4e88be;
   padding-left: 40px;
 }
 #section .texto {
@@ -216,7 +216,7 @@ section .informacion {
 }
 
 .contacto {
-  background-color: #9ACD32;
+  background-color: #4e88be;
   padding-left: 40px;
   padding-top: 20px;
   color: white;
