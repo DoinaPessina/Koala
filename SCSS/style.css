@@ -175,7 +175,7 @@ main .intro2 {
   display: grid;
   height: 100vh;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 40% 70% 20%;
+  grid-template-rows: 40% 110% 30%;
   grid-template-areas: "header header" "main main" "footer footer";
 }
 
@@ -272,9 +272,7 @@ main .intro2 {
 #grilla-proyectos {
   display: grid;
   height: 100vh;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 40% 80% 20%;
-  grid-template-areas: "header header" "main main" "footer footer";
+  grid-template-areas: "header" "main" "carousel" "footer";
 }
 
 #proyectos {
@@ -287,6 +285,7 @@ main .intro2 {
 
 .carouselslide {
   width: auto;
+  grid-area: carousel;
 }
 
 /*contacto*/
