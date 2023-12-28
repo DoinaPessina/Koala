@@ -165,7 +165,6 @@ color: $colorPrincipal;
     grid-template-areas: 
     "header header"
     "main main" 
-   "section carousel"
     "footer footer";}
 
 #Productos {
@@ -186,10 +185,6 @@ background-color: $colorSecundario;
   .servicios:hover{
     background-color: $coloralternativo;
   }
-
-  .carouselslide {
-    width: auto;
-  }
         
  .titulo1 {
   font-family:copse;
@@ -200,9 +195,7 @@ background-color: $colorSecundario;
  }
    }
 
-    /*proyectos*/ 
-
-.imagenes-proyecto {
+   .imagenes-servicios {
     max-width: max-content;
     flex-direction: row;
 
@@ -213,9 +206,22 @@ background-color: $colorSecundario;
         align-items: center;
         justify-content: space-evenly;
         display: inline-flex;
-
     }
 }
+
+
+
+    /*proyectos*/ 
+#proyectos {
+    font-family: $fontalternativa;
+    align-items: center;
+    font-size: medium;
+
+}
+    .carouselslide {
+        width: auto;
+      }
+
 
 /*contacto*/ 
 

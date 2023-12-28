@@ -211,7 +211,7 @@ main .intro2 {
   height: 100vh;
   grid-template-columns: 50% 50%;
   grid-template-rows: 40% 80% 20%;
-  grid-template-areas: "header header" "main main" "section carousel" "footer footer";
+  grid-template-areas: "header header" "main main" "footer footer";
 }
 
 #Productos .Servicios {
@@ -230,9 +230,6 @@ main .intro2 {
 #Productos .servicios:hover {
   background-color: #f37449;
 }
-#Productos .carouselslide {
-  width: auto;
-}
 #Productos .titulo1 {
   font-family: copse;
   font-weight: 400;
@@ -242,19 +239,29 @@ main .intro2 {
   font-style: oblique;
 }
 
-/*proyectos*/
-.imagenes-proyecto {
+.imagenes-servicios {
   max-width: -moz-max-content;
   max-width: max-content;
   flex-direction: row;
 }
-.imagenes-proyecto .img-fluid {
+.imagenes-servicios .img-fluid {
   height: 238px;
   border: #9ACD32;
   padding: 22px;
   align-items: center;
   justify-content: space-evenly;
   display: inline-flex;
+}
+
+/*proyectos*/
+#proyectos {
+  font-family: "Palanquin Dark", sans-serif;
+  align-items: center;
+  font-size: medium;
+}
+
+.carouselslide {
+  width: auto;
 }
 
 /*contacto*/
