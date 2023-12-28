@@ -169,8 +169,6 @@ main .intro2 {
 
 .txtprin {
   background-color: #a385bd;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 .txtprin .estudio {
   width: 100%;
