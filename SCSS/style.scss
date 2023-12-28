@@ -33,7 +33,7 @@ main {
 
     .intro1 {
    font-size: 100px;
-    font-family: $fonttitulo;
+    font-family: $fontalternativa;
     padding: 90px 40px 20px 40px;
     line-height: 90px;
     }
@@ -55,7 +55,7 @@ main {
     color: white;
     width: fit-content;
     .intro3 {
-        font-family: sans-serif;
+        font-family: $fonttitulo;
         color: white;
         padding: 10px;
         height: fit-content;
