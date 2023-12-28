@@ -148,8 +148,6 @@ main .intro2 {
 
 #carousel {
   grid-area: carousel;
-  width: -moz-fit-content;
-  width: fit-content;
   -o-object-fit: cover;
      object-fit: cover;
   max-width: 100%;
