@@ -140,19 +140,19 @@ main .intro2 {
   grid-template-areas: "header header" "main main" "section section" "footer footer";
 }
 
-main .nosotris {
+.nosotris {
   grid-area: main;
   margin: 0%;
   background: linear-gradient(45deg, #f37449, #9ACD32);
 }
-main .nosotris .estudio {
+.nosotris .estudio {
   width: 100%;
   background: white;
   align-items: center;
   justify-content: center;
   margin-top: 0%;
 }
-main .nosotris .estudio .titulon {
+.nosotris .estudio .titulon {
   font-family: Arial, Helvetica, sans-serif;
   font-variant: normal;
   color: #f37449;
@@ -161,14 +161,14 @@ main .nosotris .estudio .titulon {
   font-size: 50px;
   margin-bottom: 0%;
 }
-main .nosotris .estudio .frase {
+.nosotris .estudio .frase {
   color: #f37449;
   font-style: oblique;
   font-size: 30px;
   margin-top: 0%;
   margin-left: 160px;
 }
-main .nosotris .estudio .texton {
+.nosotris .estudio .texton {
   color: black;
   font-family: sans-serif;
   font-weight: 100;
@@ -176,7 +176,7 @@ main .nosotris .estudio .texton {
   width: 626px;
   height: 80px;
 }
-main .nosotris .informacion {
+.nosotris .informacion {
   align-items: flex;
   font-size: medium;
   color: black;
