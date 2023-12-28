@@ -144,10 +144,10 @@ main {
   grid-area: main;
 }
 main .estudio {
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100%;
   background: linear-gradient(45deg, #f37449, #9ACD32);
   align-items: center;
+  justify-content: center;
   margin-top: 0%;
 }
 main .estudio .titulon {
@@ -181,6 +181,7 @@ section .informacion {
   font-size: medium;
   color: black;
   align-content: center;
+  justify-content: center;
 }
 
 /*Servicios*/

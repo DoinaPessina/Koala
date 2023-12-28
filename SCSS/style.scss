@@ -101,9 +101,10 @@ main {
     grid-area: main;
 
     .estudio {
-width: fit-content;
-        background: linear-gradient(45deg, #f37449, #9ACD32);
+    width: 100%;
+    background: linear-gradient(45deg, #f37449, #9ACD32);
     align-items: center;
+    justify-content: center;
     margin-top: 0%;
 
     
@@ -130,6 +131,7 @@ width: fit-content;
         font-size: medium;
         width: 626px;
         height: 80px;
+        
     }
 }
 }
@@ -142,6 +144,7 @@ section {
         font-size: medium;
         color: black;
         align-content: center;
+        justify-content: center;
     }
 }
 
