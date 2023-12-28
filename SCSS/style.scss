@@ -89,10 +89,11 @@ main {
     display: grid;
     height: 100vh;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 230px 500px 160px;
+    grid-template-rows: 230px 200px 500px 160px;
     grid-template-areas: 
     "header header"
     "main main" 
+    "section section"
     "footer footer";}
 
 

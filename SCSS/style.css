@@ -7,7 +7,7 @@ header {
   padding: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   margin: 0%;
   grid-area: header;
@@ -136,8 +136,8 @@ main .intro2 {
   display: grid;
   height: 100vh;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 230px 500px 160px;
-  grid-template-areas: "header header" "main main" "footer footer";
+  grid-template-rows: 230px 200px 500px 160px;
+  grid-template-areas: "header header" "main main" "section section" "footer footer";
 }
 
 main {
