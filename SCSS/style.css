@@ -205,6 +205,10 @@ main .intro2 {
   }
 }
 
+.texto {
+  background-color: linear-gradient(45deg, #4e88be, #9ACD32);
+}
+
 /*Servicios*/
 #Productos {
   background-color: #5e866d;
