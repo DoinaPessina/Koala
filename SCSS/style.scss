@@ -97,12 +97,14 @@ main {
     "footer footer";}
 
 
-main {
+main .nosotris {
     grid-area: main;
+    margin: 0%;
+    background: linear-gradient(45deg, #f37449, #9ACD32);
 
     .estudio {
     width: 100%;
-    background: linear-gradient(45deg, #f37449, #9ACD32);
+    background: white;
     align-items: center;
     justify-content: center;
     margin-top: 0%;
@@ -111,14 +113,14 @@ main {
     .titulon {
         font-family: $fonttitulo;
         font-variant: normal;
-        color: white;
+        color: $coloralternativo;
         width: max-content;
         font-size: 50px;
         margin-bottom: 0%;
     }
 
     .frase {
-        color: bisque;
+        color: $coloralternativo;
         font-style: oblique;
         font-size: 30px;
         margin-top: 0%;
@@ -134,17 +136,14 @@ main {
         
     }
 }
-}
-
-section {
 
     .informacion {
-        background: linear-gradient(45deg, #f37449, #9ACD32);
         align-items: flex;
         font-size: medium;
         color: black;
         align-content: center;
         justify-content: center;
+        font-family: $fontalternativa;
     }
 }
 
