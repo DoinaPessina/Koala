@@ -5,10 +5,11 @@
 footer {
     width: 100%;
     grid-area: footer;
-    padding: auto;
     padding-left: 10%;
-    align-items: flex;
+    display: inline-flex;
     background-color:$coloralternativo;
+    align-items: center;
+
 h3 {
     font-size: larger;
     padding-top: 20px;  
@@ -23,6 +24,7 @@ h3 {
 .legales {
     font-size: small;
     color: $colorSecundario;
+
 }
 
 .logofooter {
@@ -30,5 +32,11 @@ h3 {
     filter: brightness(1.1);
     mix-blend-mode: multiply;
 }
+ img svg {
+    width: auto;
+    height: 40%;
+    padding: 5px;
+ }
+
 }
   
