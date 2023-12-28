@@ -19,6 +19,7 @@ color: $colorPrincipal;
     grid-template-areas: 
     "header header header"
     "main imagenes section"
+    "carousel carousel carousel"
     "footer footer footer";
     height: 100vh;
     grid-template-columns: 30% 40% 30%;
