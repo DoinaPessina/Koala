@@ -104,7 +104,7 @@ color: $colorPrincipal;
     display: grid;
     height: 100vh;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 40% 80% 20%;
+    grid-template-rows: 40% 70% 20%;
     grid-template-areas: 
     "header header"
     "main main" 
@@ -118,7 +118,22 @@ color: $colorPrincipal;
     width: 100%;
     padding: 1% 30% 1% 30%;
     color: black;
-    
+       border-radius: 6px;
+       cursor: pointer;
+       height: 150px;
+       line-height: 95px;
+       text-align: center;
+       transition-property: border-radius;
+       transition-duration: 1s;
+       transition-timing-function: linear;
+       width: 150px;
+     }
+     
+    .estudio:hover {
+       border-radius: 50%;
+       background-color: $colorSecundario;
+     }
+
 
     .titulon {
         font-family: $fontalternativa;
@@ -127,7 +142,7 @@ color: $colorPrincipal;
         font-size: 50px;
         margin-bottom: 2%;
         align-items: center;
-    }
+        text-align: center;
 
     .frase {
         font-style: oblique;
@@ -135,6 +150,7 @@ color: $colorPrincipal;
         margin-top: 0%;
         margin-left: 160px;
         align-items: center;
+        text-align: center;
     }
     .texton {
         font-family: sans-serif;
@@ -142,7 +158,11 @@ color: $colorPrincipal;
         font-size: medium;
         width: 626px;
         height: 20%; 
-        align-items: center;; 
+        text-align: center; 
+    }
+    p {
+        justify-content: center;
+        text-align: justify;
     }
 }
 @media 
