@@ -73,6 +73,13 @@ main {
         font-family: Helvetica;
     }
 }
+@media 
+  (min-width: $mobile)
+  {
+    header {
+color: $colorPrincipal;
+    }
+  }
 }
 
 #carousel {
@@ -144,6 +151,13 @@ main {
         height: 20%;  
     }
 }
+@media 
+  (min-width: $mobile)
+  {
+    header {
+color: $colorPrincipal;
+    }
+  }
 }
 
 
