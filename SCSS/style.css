@@ -206,8 +206,16 @@ main .intro2 {
 }
 
 /*Servicios*/
+#grilla-servicios {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 80% 20%;
+  grid-template-areas: "header header" "main main" "section carousel" "footer footer";
+}
+
 #Productos .Servicios {
-  background-color: linear-gradient(45deg, #4e88be, #9ACD32);
+  background-color: #4e88be;
   font-family: sans-serif;
   color: white;
   flex-direction: row;
@@ -215,12 +223,15 @@ main .intro2 {
   padding: 1%;
   width: 100%;
   height: 95px;
-  transition-property: background;
+  transition-property: background-color;
   transition-duration: 1s;
   transition-timing-function: linear;
 }
 #Productos .servicios:hover {
-  background: #f37449;
+  background-color: #f37449;
+}
+#Productos .carouselslide {
+  width: auto;
 }
 #Productos .titulo1 {
   font-family: copse;
