@@ -27,6 +27,7 @@ header {
 
     li a:hover {
 background-color: $coloralternativo;
+
     }
     
     .logo
@@ -36,5 +37,14 @@ background-color: $coloralternativo;
         height: 20px;
     }
 }
+ 
+@media (max-width:700px){
+    header {
+        flex-direction: column;
 
+    }
+    nav {
+        padding: 10px 0px;
+    }
+}
 }
