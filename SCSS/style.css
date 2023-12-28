@@ -32,6 +32,14 @@ header .menu ul .logo {
   mix-blend-mode: multiply;
   height: 20px;
 }
+@media (min-width: 570px) {
+  header header {
+    flex-direction: column;
+  }
+  header nav {
+    padding: 10px 0px;
+  }
+}
 
 /*variables*/
 /*Footer*/
@@ -52,12 +60,14 @@ footer .redes {
   font-family: sans-serif;
   font-size: medium;
 }
-footer .logofinal {
-  height: 5px;
-}
 footer .legales {
   font-size: small;
-  background-color: white;
+  color: #4e88be;
+}
+footer .logofooter {
+  height: 5px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
 }
 
 @media (min-width: 570px) {
@@ -68,10 +78,10 @@ footer .legales {
 /*inicio*/
 #grilla {
   display: grid;
-  grid-template-areas: "header header header" "main imagenes section" "footer footer footer";
+  grid-template-areas: "header header header" "main carousel section" "footer footer footer";
   height: 100vh;
-  grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 230px 964px 160px;
+  grid-template-columns: 40% 40% 20%;
+  grid-template-rows: 40% 80% 20%;
 }
 
 body {
@@ -83,7 +93,7 @@ main {
 }
 main .intro1 {
   font-size: 100px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Palanquin Dark", sans-serif;
   padding: 90px 40px 20px 40px;
   line-height: 90px;
 }
@@ -101,13 +111,13 @@ main .intro2 {
   padding-left: 40px;
 }
 #section .texto {
-  padding: 30px 20px 20px 20px;
+  padding: 30px 20px 42px 20px;
   color: white;
   width: -moz-fit-content;
   width: fit-content;
 }
 #section .texto .intro3 {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding: 10px;
   height: -moz-fit-content;
@@ -125,13 +135,27 @@ main .intro2 {
   color: white;
   font-family: Helvetica;
 }
+@media (min-width: 570px) {
+  #section header {
+    color: #a385bd;
+  }
+}
 
-#imagenes {
+#carousel {
   grid-area: imagenes;
   width: -moz-fit-content;
   width: fit-content;
   -o-object-fit: cover;
      object-fit: cover;
+  max-width: 100%;
+  height: 65vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+#carousel .carousel-inner {
+  display: flex;
+  flex: 0 0 33.3333333333%;
 }
 
 /*nosotros*/
@@ -139,54 +163,46 @@ main .intro2 {
   display: grid;
   height: 100vh;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 230px 200px 500px 160px;
+  grid-template-rows: 40% 80% 20%;
   grid-template-areas: "header header" "main main" "footer footer";
 }
 
-.main {
-  grid-area: main;
-}
-
 .txtprin {
-  background: linear-gradient(45deg, #f37449, #9ACD32);
+  background-color: #a385bd;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .txtprin .estudio {
   width: 100%;
-  background: white;
+  padding: 1% 1% 1% 30%;
   align-items: center;
   justify-content: center;
 }
 .txtprin .estudio .titulon {
   font-family: Arial, Helvetica, sans-serif;
   font-variant: normal;
-  color: #f37449;
   width: -moz-max-content;
   width: max-content;
   font-size: 50px;
   margin-bottom: 0%;
 }
 .txtprin .estudio .frase {
-  color: #f37449;
   font-style: oblique;
   font-size: 30px;
   margin-top: 0%;
   margin-left: 160px;
 }
 .txtprin .estudio .texton {
-  color: black;
   font-family: sans-serif;
   font-weight: 100;
   font-size: medium;
   width: 626px;
-  height: 80px;
+  height: 20%;
 }
-.txtprin .estudio .informacion {
-  align-items: flex;
-  font-size: medium;
-  color: black;
-  align-content: center;
-  justify-content: center;
-  font-family: "Palanquin Dark", sans-serif;
+@media (min-width: 570px) {
+  .txtprin header {
+    color: #a385bd;
+  }
 }
 
 /*Servicios*/
@@ -214,6 +230,15 @@ main .intro2 {
 .imagenes-proyecto {
   max-width: -moz-max-content;
   max-width: max-content;
+  flex-direction: row;
+}
+.imagenes-proyecto .img-fluid {
+  height: 238px;
+  border: #9ACD32;
+  padding: 22px;
+  align-items: center;
+  justify-content: space-evenly;
+  display: inline-flex;
 }
 
 /*contacto*/
@@ -221,7 +246,7 @@ main .intro2 {
   display: grid;
   height: 100vh;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 230px 460px 160px;
+  grid-template-rows: 230px 515px 160px;
   grid-template-areas: "header header" "main formulario" "footer footer";
 }
 
@@ -278,5 +303,5 @@ main .intro2 {
 .formulario .btnenviar {
   padding-left: 20px;
   padding-bottom: 10px;
-  width: 500px;
+  width: 150px;
 }/*# sourceMappingURL=style.css.map */

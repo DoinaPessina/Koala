@@ -125,25 +125,21 @@ color: $colorPrincipal;
     align-items: center;
     justify-content: center;
 
-    
     .titulon {
         font-family: $fonttitulo;
         font-variant: normal;
-        color: white;
         width: max-content;
         font-size: 50px;
         margin-bottom: 0%;
     }
 
     .frase {
-        color: white;
         font-style: oblique;
         font-size: 30px;
         margin-top: 0%;
         margin-left: 160px;
     }
     .texton {
-        color: black;
         font-family: sans-serif;
         font-weight: 100;
         font-size: medium;
