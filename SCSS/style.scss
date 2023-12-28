@@ -18,12 +18,11 @@ color: $colorPrincipal;
     display: grid;
     grid-template-areas: 
     "header header header"
-    "main main section"
-    "carousel carousel carousel"
+    "main carousel section"
     "footer footer footer";
     height: 100vh;
     grid-template-columns: 30% 40% 30%;
-    grid-template-rows: 230px 964px 160px;
+    grid-template-rows: 230px 744px 200px;
 }
 body {
     margin: 0%;
@@ -52,7 +51,7 @@ main {
     background-color: $colorSecundario;
     padding-left:40px;
 .texto { 
-    padding: 30px 20px 20px 20px;
+    padding: 30px 20px 42px 20px;
     color: white;
     width: fit-content;
     .intro3 {
