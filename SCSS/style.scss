@@ -21,7 +21,7 @@ color: $colorPrincipal;
     "main carousel section"
     "footer footer footer";
     height: 100vh;
-    grid-template-columns: 40% 30% 30%;
+    grid-template-columns: 43% 32% 33%;
     grid-template-rows: 40% 80% 20%;
 }
 body {
@@ -131,8 +131,7 @@ color: $colorPrincipal;
        transition-property: border-radius;
        transition-duration: 1s;
        transition-timing-function: linear;
-     }
-     
+    
     .estudio:hover {
        border-radius: 30%;
        background-color: $colorSecundario;
@@ -141,18 +140,20 @@ color: $colorPrincipal;
 
     .titulon {
         font-family: $fontalternativa;
+        color: $coloropcional;
         font-size: 50px;
         margin-bottom: 2%;
         text-align: center;
+    }
 
-    h2 .frase {
+.frase {
         font-style: oblique;
         font-size: 30px;
         margin-top: 0%;
         margin-left: 160px;
         text-align: center;
     }
-    h2 .texton {
+.texton {
         font-family: sans-serif;
         font-weight: 100;
         font-size: medium;
@@ -165,6 +166,7 @@ color: $colorPrincipal;
         text-align: justify;
     }
 }
+
 @media 
   (min-width: $mobile)
   {
@@ -182,35 +184,33 @@ color: $colorPrincipal;
     display: grid;
     height: 100vh;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 40% 80% 20%;
+    grid-template-rows: 40% 160% 20%;
     grid-template-areas: 
     "header header"
     "main main" 
     "footer footer";}
 
 #Productos {
-
+    background: linear-gradient(90deg, rgba(243,116,73,1) 26%, rgba(163,133,189,1) 58%, rgba(78,136,190,1) 100%);
    .Servicios {
-background: linear-gradient(90deg, rgba(243,116,73,1) 26%, rgba(163,133,189,1) 58%, rgba(78,136,190,1) 100%);
- font-family: sans-serif;
+ text-align: center;
  color: white;
-}
-  .servicios:hover{
-    background-color: $coloralternativo;
-  }
+ padding: 20px;
         
  .titulo1 {
-  font-family:copse;
+  font-family:$fonttitulo;
  font-weight: 400; }
  .titulo2 {
    font-size: large;
   font-style: oblique;
  }
    }
-
+}
    .imagenes-servicios {
     max-width: max-content;
     flex-direction: row;
+    align-items: center;
+    border-color: $coloropcional;
 
     .img-fluid {
         height: 238px;
@@ -228,6 +228,7 @@ background: linear-gradient(90deg, rgba(243,116,73,1) 26%, rgba(163,133,189,1) 5
 #grilla-proyectos {
     display: grid;
     height: 100vh;
+    grid-template-rows: 40% 160% 20%;
     grid-template-areas: 
     "header"
     "main"
@@ -240,7 +241,7 @@ background: linear-gradient(90deg, rgba(243,116,73,1) 26%, rgba(163,133,189,1) 5
     align-items: center;
     font-size: medium;
     text-align: center;
-    text-decoration-line: underline;
+    color: $coloropcional;
 
 }
     .carouselslide {

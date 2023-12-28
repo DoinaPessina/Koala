@@ -91,7 +91,7 @@ footer img svg {
   display: grid;
   grid-template-areas: "header header header" "main carousel section" "footer footer footer";
   height: 100vh;
-  grid-template-columns: 40% 30% 30%;
+  grid-template-columns: 43% 32% 33%;
   grid-template-rows: 40% 80% 20%;
 }
 
@@ -193,24 +193,25 @@ main .intro2 {
   transition-duration: 1s;
   transition-timing-function: linear;
 }
-#nosotros .estudio:hover {
+#nosotros .estudio .estudio:hover {
   border-radius: 30%;
   background-color: #4e88be;
 }
-#nosotros .titulon {
+#nosotros .estudio .titulon {
   font-family: "Palanquin Dark", sans-serif;
+  color: rgb(204, 166, 154);
   font-size: 50px;
   margin-bottom: 2%;
   text-align: center;
 }
-#nosotros .titulon h2 .frase {
+#nosotros .estudio .frase {
   font-style: oblique;
   font-size: 30px;
   margin-top: 0%;
   margin-left: 160px;
   text-align: center;
 }
-#nosotros .titulon h2 .texton {
+#nosotros .estudio .texton {
   font-family: sans-serif;
   font-weight: 100;
   font-size: medium;
@@ -218,7 +219,7 @@ main .intro2 {
   height: 20%;
   text-align: center;
 }
-#nosotros .titulon p {
+#nosotros .estudio p {
   justify-content: center;
   text-align: justify;
 }
@@ -233,23 +234,23 @@ main .intro2 {
   display: grid;
   height: 100vh;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 40% 80% 20%;
+  grid-template-rows: 40% 160% 20%;
   grid-template-areas: "header header" "main main" "footer footer";
 }
 
-#Productos .Servicios {
+#Productos {
   background: linear-gradient(90deg, rgb(243, 116, 73) 26%, rgb(163, 133, 189) 58%, rgb(78, 136, 190) 100%);
-  font-family: sans-serif;
+}
+#Productos .Servicios {
+  text-align: center;
   color: white;
+  padding: 20px;
 }
-#Productos .servicios:hover {
-  background-color: #f37449;
-}
-#Productos .titulo1 {
-  font-family: copse;
+#Productos .Servicios .titulo1 {
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
-#Productos .titulo2 {
+#Productos .Servicios .titulo2 {
   font-size: large;
   font-style: oblique;
 }
@@ -258,6 +259,8 @@ main .intro2 {
   max-width: -moz-max-content;
   max-width: max-content;
   flex-direction: row;
+  align-items: center;
+  border-color: rgb(204, 166, 154);
 }
 .imagenes-servicios .img-fluid {
   height: 238px;
@@ -272,6 +275,7 @@ main .intro2 {
 #grilla-proyectos {
   display: grid;
   height: 100vh;
+  grid-template-rows: 40% 160% 20%;
   grid-template-areas: "header" "main" "carousel" "footer";
 }
 
@@ -280,7 +284,7 @@ main .intro2 {
   align-items: center;
   font-size: medium;
   text-align: center;
-  text-decoration-line: underline;
+  color: rgb(204, 166, 154);
 }
 
 .carouselslide {
