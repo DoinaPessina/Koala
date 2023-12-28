@@ -143,26 +143,25 @@ main .intro2 {
 main {
   grid-area: main;
   background: linear-gradient(45deg, #f37449, #9ACD32);
+  align-items: center;
 }
-main .estudiokoala {
-  padding-left: 117px;
-}
-main .estudiokoala .titulon {
+main .titulon {
   font-family: Arial, Helvetica, sans-serif;
   font-variant: normal;
   color: white;
   width: -moz-max-content;
   width: max-content;
-  font-size: 100px;
+  font-size: 50px;
   margin-bottom: 0%;
 }
-main .estudiokoala .frase {
+main .frase {
   color: bisque;
   font-style: oblique;
+  font-size: 30px;
   margin-top: 0%;
   margin-left: 160px;
 }
-main .estudiokoala .texton {
+main .texton {
   color: black;
   font-family: sans-serif;
   font-weight: 100;
@@ -170,10 +169,12 @@ main .estudiokoala .texton {
   width: 626px;
   height: 80px;
 }
-main .estudiokoala .informacion {
+
+section .informacion {
   align-items: flex;
   font-size: medium;
   color: black;
+  align-content: center;
 }
 
 /*Servicios*/
