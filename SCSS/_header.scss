@@ -38,13 +38,11 @@ background-color: $coloralternativo;
     }
 }
  
-@media (min-width: 570px){
+@media 
+  (min-width: $mobile)
+  {
     header {
-        flex-direction: column;
-
+color: $colorPrincipal;
     }
-    nav {
-        padding: 10px 0px;
-    }
-}
+  }
 }

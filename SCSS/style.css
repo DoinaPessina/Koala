@@ -34,10 +34,7 @@ header .menu ul .logo {
 }
 @media (min-width: 570px) {
   header header {
-    flex-direction: column;
-  }
-  header nav {
-    padding: 10px 0px;
+    color: #a385bd;
   }
 }
 
@@ -78,6 +75,11 @@ footer img svg {
   padding: 5px;
   padding: 20px;
 }
+@media (min-width: 570px) {
+  footer header {
+    color: #a385bd;
+  }
+}
 
 @media (min-width: 570px) {
   header {
@@ -112,6 +114,11 @@ main .intro2 {
   padding: 10px 40px 20px 40px;
   font-weight: lighter;
   font-family: Helvetica, sans-serif;
+}
+@media (min-width: 570px) {
+  main header {
+    color: #a385bd;
+  }
 }
 
 #section {

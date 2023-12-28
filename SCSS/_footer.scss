@@ -42,5 +42,12 @@ h3 {
     padding: 20px;
  }
 
+ @media 
+  (min-width: $mobile)
+  {
+    header {
+color: $colorPrincipal;
+    }
+  }
 }
   
