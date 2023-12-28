@@ -120,13 +120,10 @@ color: $colorPrincipal;
     color: black;
        border-radius: 6px;
        cursor: pointer;
-       height: 150px;
-       line-height: 95px;
-       text-align: center;
+       text-align: justify;
        transition-property: border-radius;
        transition-duration: 1s;
        transition-timing-function: linear;
-       width: 150px;
      }
      
     .estudio:hover {
@@ -137,22 +134,18 @@ color: $colorPrincipal;
 
     .titulon {
         font-family: $fontalternativa;
-        font-variant: normal;
-        width: max-content;
         font-size: 50px;
         margin-bottom: 2%;
-        align-items: center;
         text-align: center;
 
-    .frase {
+    h2 .frase {
         font-style: oblique;
         font-size: 30px;
         margin-top: 0%;
         margin-left: 160px;
-        align-items: center;
         text-align: center;
     }
-    .texton {
+    h2 .texton {
         font-family: sans-serif;
         font-weight: 100;
         font-size: medium;
