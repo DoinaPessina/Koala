@@ -51,6 +51,9 @@ main {
     header {
 color: $colorPrincipal;
     }
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
   }
 }
 
@@ -207,7 +210,7 @@ color: $colorPrincipal;
     max-width: max-content;
     flex-direction: row;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 200px;
     border-color: $coloropcional;
 
     .img-fluid {
@@ -234,7 +237,7 @@ color: $colorPrincipal;
     display: grid;
     height: 100vh;
     grid-template-rows: 40% 160% 20%;
-    grid-template-columns: 70% 20%;
+    grid-template-columns: 70% 30%;
     grid-template-areas: 
     "header header"
     "main main"
@@ -256,6 +259,11 @@ color: $colorPrincipal;
         width: auto;
         grid-area: carousel;
         width: 1000px;
+      }
+
+      #textin {
+text-align: justify;
+padding: 20px;
       }
 
 
