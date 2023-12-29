@@ -92,9 +92,9 @@ footer img svg {
 /*inicio*/
 #grilla {
   display: grid;
-  grid-template-areas: "header header header" "main imagen section" "footer footer footer";
+  grid-template-areas: "header header" "main  section" "footer footer";
   height: 100vh;
-  grid-template-columns: 40% 30% 30%;
+  grid-template-columns: 60% 40%;
   grid-template-rows: 40% 80% 20%;
 }
 
@@ -161,12 +161,6 @@ main .intro2 {
   #section header {
     color: #a385bd;
   }
-}
-
-#imagen {
-  grid-area: imagen;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 /*nosotros*/
@@ -302,12 +296,6 @@ main .intro2 {
 .carouselslide {
   width: auto;
   grid-area: carousel;
-  width: 1000px;
-}
-
-#textin {
-  text-align: justify;
-  padding: 20px;
 }
 
 /*contacto*/

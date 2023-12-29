@@ -18,11 +18,11 @@ color: $colorPrincipal;
 #grilla {
     display: grid;
     grid-template-areas: 
-    "header header header"
-    "main imagen section"
-    "footer footer footer";
+    "header header"
+    "main  section"
+    "footer footer";
     height: 100vh;
-    grid-template-columns: 40% 30% 30%;
+    grid-template-columns: 60% 40%;
     grid-template-rows: 40% 80% 20%;
 }
 body {
@@ -92,12 +92,6 @@ color: $colorPrincipal;
     }
   }
 }
-
-#imagen {
-    grid-area: imagen;
-    width: fit-content;
-    }
-
 
 
 
@@ -258,13 +252,9 @@ color: $colorPrincipal;
     .carouselslide {
         width: auto;
         grid-area: carousel;
-        width: 1000px;
       }
 
-      #textin {
-text-align: justify;
-padding: 20px;
-      }
+
 
 
 /*contacto*/ 
