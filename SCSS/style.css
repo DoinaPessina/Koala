@@ -63,7 +63,7 @@ footer .redes {
 }
 footer .legales {
   font-size: small;
-  color: #4e88be;
+  color: white;
   padding: 20px;
 }
 footer .logofooter {
@@ -92,7 +92,7 @@ footer img svg {
 /*inicio*/
 #grilla {
   display: grid;
-  grid-template-areas: "header header header" "main carousel section" "footer footer footer";
+  grid-template-areas: "header header header" "main imagen section" "footer footer footer";
   height: 100vh;
   grid-template-columns: 40% 30% 30%;
   grid-template-rows: 40% 80% 20%;
@@ -160,14 +160,10 @@ main .intro2 {
   }
 }
 
-#carousel {
-  grid-area: carousel;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-#carousel .carousel-inner {
-  display: flex;
-  flex: 0 0 33.3333333333%;
+#imagen {
+  grid-area: imagen;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 /*nosotros*/

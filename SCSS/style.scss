@@ -19,7 +19,7 @@ color: $colorPrincipal;
     display: grid;
     grid-template-areas: 
     "header header header"
-    "main carousel section"
+    "main imagen section"
     "footer footer footer";
     height: 100vh;
     grid-template-columns: 40% 30% 30%;
@@ -90,16 +90,9 @@ color: $colorPrincipal;
   }
 }
 
-#carousel {
-    grid-area: carousel;
-    object-fit: cover;
-   
-
-.carousel-inner {
-    display: flex;
-    flex: 0 0 calc(100%/3);
-}
-
+#imagen {
+    grid-area: imagen;
+    width: fit-content;
     }
 
 
