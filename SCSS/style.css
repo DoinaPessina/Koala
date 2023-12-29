@@ -41,12 +41,15 @@ header .menu ul .logo {
 /*variables*/
 /*Footer*/
 footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
   width: 100%;
   grid-area: footer;
-  padding-left: 10%;
-  display: inline-flex;
   background-color: #f37449;
-  align-items: center;
 }
 footer h3 {
   font-size: larger;
@@ -161,10 +164,6 @@ main .intro2 {
   grid-area: carousel;
   -o-object-fit: cover;
      object-fit: cover;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
 }
 #carousel .carousel-inner {
   display: flex;

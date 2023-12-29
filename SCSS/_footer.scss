@@ -3,12 +3,16 @@
 
 /*Footer*/ 
 footer {
+
+    padding: 20px;
+    display: flex; 
+    flex-direction:  row;
+    justify-content:center;
+    align-items: center;
+    margin: 0%;
     width: 100%;
     grid-area: footer;
-    padding-left: 10%;
-    display: inline-flex;
     background-color:$coloralternativo;
-    align-items: center;
 
 h3 {
     font-size: larger;
