@@ -234,11 +234,12 @@ color: $colorPrincipal;
     display: grid;
     height: 100vh;
     grid-template-rows: 40% 160% 20%;
+    grid-template-columns: 70% 20%;
     grid-template-areas: 
-    "header"
-    "main"
-    "carousel" 
-    "footer";
+    "header header"
+    "main main"
+    "carousel section" 
+    "footer footer";
 }
 
     #proyectos {
@@ -246,13 +247,15 @@ color: $colorPrincipal;
     align-items: center;
     font-size: medium;
     text-align: center;
-    color: $coloropcional;
-    background-color: $coloralternativo;
+    color: black;
+    background-color: $coloropcional;
+    padding: 20px;
 
 }
     .carouselslide {
         width: auto;
         grid-area: carousel;
+        width: 1000px;
       }
 
 

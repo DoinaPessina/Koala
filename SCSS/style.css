@@ -282,7 +282,8 @@ main .intro2 {
   display: grid;
   height: 100vh;
   grid-template-rows: 40% 160% 20%;
-  grid-template-areas: "header" "main" "carousel" "footer";
+  grid-template-columns: 70% 20%;
+  grid-template-areas: "header header" "main main" "carousel section" "footer footer";
 }
 
 #proyectos {
@@ -290,13 +291,15 @@ main .intro2 {
   align-items: center;
   font-size: medium;
   text-align: center;
-  color: rgb(204, 166, 154);
-  background-color: #f37449;
+  color: black;
+  background-color: rgb(204, 166, 154);
+  padding: 20px;
 }
 
 .carouselslide {
   width: auto;
   grid-area: carousel;
+  width: 1000px;
 }
 
 /*contacto*/
