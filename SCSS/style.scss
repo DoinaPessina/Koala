@@ -2,6 +2,7 @@
 @import 'vars';
 @import 'header';
 @import 'footer';
+@import 'mixin';
 @import url('https://fonts.googleapis.com/css2?family=Copse&family=MuseoModerno:wght@500&family=Palanquin+Dark&family=Secular+One&display=swap');
 @media 
   (min-width: $mobile)
@@ -297,6 +298,7 @@ padding-bottom: 10px
     grid-area: formulario;
     padding-left: 40px;
     padding-top: 20px;
+    width: fit-content;
 
     h2 {
         padding-top: 20px;
@@ -307,26 +309,18 @@ padding-bottom: 10px
     
     }
     .mail {
-        padding-left: 20px;
-        padding-bottom: 10px;
-        width: 500px;
+        @include formulario;
     }
     .mensaje {
-        padding-left: 20px;
-        padding-bottom: 10px;
-        width: 500px;
+        @include formulario;
     }
     
     .asunto {
-        padding-left: 20px;
-        padding-bottom: 10px;
-        width: 500px;
+        @include formulario;
     }
     
     .Nombre {
-        padding-left: 20px;
-        padding-bottom: 10px;
-        width: 500px;
+        @include formulario;
     }
 .btnenviar {
         padding-left: 20px;

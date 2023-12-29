@@ -332,6 +332,8 @@ main .intro2 {
   grid-area: formulario;
   padding-left: 40px;
   padding-top: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .formulario h2 {
   padding-top: 20px;
