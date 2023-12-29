@@ -21,7 +21,7 @@ color: $colorPrincipal;
     "main carousel section"
     "footer footer footer";
     height: 100vh;
-    grid-template-columns: 43% 32% 33%;
+    grid-template-columns: 40% 30% 30%;
     grid-template-rows: 40% 80% 20%;
 }
 body {
@@ -92,7 +92,7 @@ color: $colorPrincipal;
 #carousel {
     grid-area: carousel;
     object-fit: cover;
-    max-width: 100%;
+    max-width: fit-content;
     height: fit-content;
 
 .carousel-inner {
@@ -140,7 +140,7 @@ color: $colorPrincipal;
 
     .titulon {
         font-family: $fontalternativa;
-        color: $coloropcional;
+        color: white;
         font-size: 50px;
         margin-bottom: 2%;
         text-align: center;
@@ -152,6 +152,8 @@ color: $colorPrincipal;
         margin-top: 0%;
         margin-left: 160px;
         text-align: center;
+        text-align: justify;
+        color: #5e866d;
     }
 .texton {
         font-family: sans-serif;
@@ -210,6 +212,7 @@ color: $colorPrincipal;
     max-width: max-content;
     flex-direction: row;
     align-items: center;
+    padding-left: 100px;
     border-color: $coloropcional;
 
     .img-fluid {
@@ -220,7 +223,14 @@ color: $colorPrincipal;
         justify-content: space-evenly;
         display: inline-flex;
     }
+    @media 
+  (min-width: $mobile)
+  {
+    header {
+color: $colorPrincipal;
+    }
 }
+   }
 
 
 
@@ -256,7 +266,7 @@ color: $colorPrincipal;
     display: grid;
     height: 100vh;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 40% 80% 20%;
+    grid-template-rows: 40% 100% 20%;
     grid-template-areas: 
     "header header"
     "main formulario" 
